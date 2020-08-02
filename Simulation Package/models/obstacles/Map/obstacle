@@ -1,0 +1,52 @@
+
+
+	<Obstacle obstacle="obstacles/Map/path.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="0.0" X="6.0" />
+	</Obstacle>
+	<Obstacle obstacle="obstacles/Map/path.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="0.0" X="-6.0" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/path3.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="0.25" X="-7.35" />
+	</Obstacle>
+
+<Obstacle obstacle="obstacles/Map/path3.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="9.95" X="-3.75" />
+	</Obstacle>
+
+<Obstacle obstacle="obstacles/Map/path3.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="9.95" X="-1.15" />
+	</Obstacle>
+
+
+<Obstacle obstacle="obstacles/Map/path3.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="9.95" X="6.3" />
+	</Obstacle>
+
+
+	<Obstacle obstacle="obstacles/Map/path3.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-5.85" X="-7.35" />
+	</Obstacle>
+
+<Obstacle obstacle="obstacles/Map/path3.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="1.0" X="7.55" />
+	</Obstacle>
+
+<Obstacle obstacle="obstacles/Map/path3.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="7.05" X="7.55" />
+	</Obstacle>
+
+<Obstacle obstacle="obstacles/Map/path4.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="9.10" X="7.55" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/path2.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-10.5" X="0.0" />
+	</Obstacle>
+
+
+	<Obstacle obstacle="obstacles/Map/path.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-9.25" X="0.0" />
+	</Obstacle>
+

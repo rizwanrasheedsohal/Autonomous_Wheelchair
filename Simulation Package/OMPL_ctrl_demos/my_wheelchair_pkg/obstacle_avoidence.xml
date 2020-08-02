@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<Problem name="ODR_RRTConnect_Base_Planning">
+	<Robot robot="robots/OpenDERobots/wheelchair.urdf" scale="1">
+		<Limits name="X" min="-10.0" max="10.0" />
+		<Limits name="Y" min="-12.0" max="12.0" />
+		<Limits name="Z" min="-1" max="2.0" />
+		<Home X="0" Y="0" Z="0.0" WX="0.0" WY="0.0" WZ="0" TH="0.0" />
+	</Robot>
+
+	<Obstacle obstacle="obstacles/Map/wallb1.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="8.0" X="0.0" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/wallb2.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-8.0" X="0.0" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/wallb3.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="0.0" X="4.8" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/wallb4.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="0.0" X="-4.8" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/mainW1.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-10.5" X="-4.3" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/mainW3.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-8.5" X="-7.35" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/mainW4.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-2.8" X="-7.35" />
+	</Obstacle>
+
+
+	<Obstacle obstacle="obstacles/Map/mainW5.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="5.4" X="-7.35" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/mainW10.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="9.95" X="-5.9" />
+	</Obstacle>
+
+	
+	<Obstacle obstacle="obstacles/Map/mainW11.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="9.95" X="-2.425" />
+	</Obstacle>
+
+	
+	<Obstacle obstacle="obstacles/Map/mainW12.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="9.95" X="2.6" />
+	</Obstacle>
+
+	
+	<Obstacle obstacle="obstacles/Map/mainW13.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="9.95" X="7.15" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/mainW2.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-10.5" X="4.3" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/mainW6.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-5.10" X="7.55" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/mainW7.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="4.05" X="7.55" />
+	</Obstacle>
+
+
+	<Obstacle obstacle="obstacles/Map/mainW8.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="8.20" X="7.55" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/mainW9.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="9.7" X="7.55" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/entrance.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-12.15" X="-1.45" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/entrance.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-12.15" X="1.30" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="0.25" X="-9.15" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="1.10" X="-8.25" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-0.65" X="-8.25" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-5.9" X="-9.15" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-5.0" X="-8.25" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-6.75" X="-8.25" />
+	</Obstacle>
+
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="1.15" X="9.15" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="2.0" X="8.35" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.20" Y="0.25" X="8.35" />
+	</Obstacle>
+
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="7.0" X="9.15" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="6.15" X="8.35" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.20" Y="7.95" X="8.35" />
+	</Obstacle>
+
+
+	<Obstacle obstacle="obstacles/Map/room1.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="9.0" X="9.15" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="8.5" X="8.35" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.20" Y="9.5" X="8.35" />
+	</Obstacle>
+
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="11.7" X="6.15" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="10.85" X="5.45" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.20" Y="10.85" X="7.0" />
+	</Obstacle>
+
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="11.7" X="-1.2" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="10.85" X="-2.165" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.20" Y="10.85" X="-0.215" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="11.7" X="-3.8" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="10.85" X="-4.7" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/room.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.20" Y="10.85" X="-2.85" />
+	</Obstacle>
+
+	
+
+	<Obstacle obstacle="obstacles/Map/box.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="0" X="0.0" />
+	</Obstacle>
+<!--
+	
+	<Obstacle obstacle="obstacles/Map/box.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="0" X="2.0" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/box.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="0" X="-2.0" />
+	</Obstacle>
+
+-->
+
+	<Controls robot="controls/wheelchair.cntr" />
+
+	<Planner>
+		<Parameters>
+			<Name>omplRRTConnect</Name>
+			<Parameter name="Cspace Drawn">0</Parameter>
+			<Parameter name="Incremental (0/1)">1</Parameter>
+			<Parameter name="Max Planning Time">1</Parameter>
+			<Parameter name="Path Drawn (0/1)">1</Parameter>
+			<Parameter name="Range">50</Parameter>
+			<Parameter name="Simplify Solution">2</Parameter>
+			<Parameter name="Speed Factor">1</Parameter>
+		</Parameters>
+		<Queries>
+			<Query>
+				<Init dim="3">0.349 0.678 0.4</Init>
+				<Goal dim="3">0.689 0.242 0.4</Goal>
+			</Query>
+		</Queries>
+	</Planner>
+</Problem>

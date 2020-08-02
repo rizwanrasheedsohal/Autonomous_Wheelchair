@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<Problem name="ODR_RRTConnect_Base_Planning">
+	<Robot robot="robots/OpenDERobots/wheelchair.urdf" scale="1">
+		<Limits name="X" min="-10.0" max="10.0" />
+		<Limits name="Y" min="-12.0" max="12.0" />
+		<Limits name="Z" min="-1" max="1.0" />
+	</Robot>
+	<Obstacle obstacle="obstacles/Map/wallb1_front.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="12.0" X="0.0" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/wallb2_back.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-12.0" X="0.0" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/wallb3_right.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="0.0" X="10.0" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/wallb4_left.urdf" scale="1">
+		<Home TH="1.5707963268" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="0.0" X="-10.0" />
+	</Obstacle>
+	
+	<!-- Left coridor walls -->
+
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-10.897" X="-4.75" />
+	</Obstacle>
+
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-5.566" X="-4.75" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-3.60" X="-4.75" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-1.5678" X="-4.75" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="3.3" X="-4.75" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="5.0" X="-4.75" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="7.0" X="-4.75" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="11.0" X="-4.75" />
+	</Obstacle>
+
+	<!-- Left Horizontol Walls -->
+
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall_horizontol.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-4.5" X="-7.359" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall_horizontol.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="4.5" X="-7.359" />
+	</Obstacle>
+
+
+
+
+<!-- ######################################################################################### -->
+	<!-- Right coridor walls -->
+
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-10.897" X="4.75" />
+	</Obstacle>
+
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-5.566" X="4.75" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-3.60" X="4.75" />
+	</Obstacle>
+
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-1.5678" X="4.75" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="3.3" X="4.75" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="5.0" X="4.75" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="7.0" X="4.75" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="11.0" X="4.75" />
+	</Obstacle>
+
+	<!-- Right Horizontol Walls -->
+
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall_horizontol.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="-4.5" X="7.359" />
+	</Obstacle>
+	
+	<Obstacle obstacle="obstacles/Map/coridor_wall_horizontol.urdf" scale="1">
+		<Home TH="0.0" WZ="1.0" WY="0.0" WX="0.0" Z="0.25" Y="4.5" X="7.359" />
+	</Obstacle>
+
+
+
+	<Controls robot="controls/wheelchair.cntr" />
+	<Planner>
+		<Parameters>
+			<Name>omplRRTConnect</Name>
+			<Parameter name="Cspace Drawn">0</Parameter>
+			<Parameter name="Incremental (0/1)">1</Parameter>
+			<Parameter name="Max Planning Time">1</Parameter>
+			<Parameter name="Path Drawn (0/1)">1</Parameter>
+			<Parameter name="Range">50</Parameter>
+			<Parameter name="Simplify Solution">2</Parameter>
+			<Parameter name="Speed Factor">1</Parameter>
+		</Parameters>
+		<Queries>
+			<Query>
+				<!-- <Init dim="3">0.249 0.5 0.4</Init>
+				<Goal dim="3">0.25 0.242 0.4</Goal>
+				 -->
+				<Init dim="3">0.349 0.678 0.4</Init>
+				<Goal dim="3">0.15 0.142 0.4</Goal>
+			</Query>
+		</Queries>
+	</Planner>
+</Problem>
